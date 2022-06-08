@@ -220,7 +220,6 @@ def main():
             )),
             verify=False
         ).json()
-        print(forward_1_rule)
 
         # заблокировать доступ до netflix.com для всех пользователей
         session.request(
